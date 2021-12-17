@@ -43,7 +43,7 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ tambahkan {BOT_SUERNAME} di grup anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "➕ tambahkan {BOT_USERNAME} di grup anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
             InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{GROUP}"),
